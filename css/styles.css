@@ -676,14 +676,14 @@ header {
   border: none;
 }
 
-.form.svg {
+.form-button {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
   
 }
 
-.form.svg:hover,
-.form.svg::after {
+.form-button:hover,
+.form-button::after {
   fill: #ffffff;
 }
 
@@ -723,7 +723,7 @@ form {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.input-svg.input-name:focus {
+.input-svg .input-name {
   border-color: #4D5AE5;
   fill: #4D5AE5;
 }
@@ -734,6 +734,7 @@ form {
   top: 50%;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  fill: #4D5AE5;
 }
 
 .input-form-svg:focus {
