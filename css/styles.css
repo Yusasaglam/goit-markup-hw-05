@@ -670,7 +670,8 @@ header {
 }
 
 .button-close:hover,
-.button-close::after {
+.button-close::after,
+.button-close:focus {
   background-color: #404bbf;
   border: none;
 }
