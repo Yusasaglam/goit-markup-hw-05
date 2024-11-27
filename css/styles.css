@@ -626,7 +626,7 @@ header {
 
 .modal-container {
   width: 408px;
-  height: 584px;
+  min-height: 584px;
   border-radius: 4px; 
   position: absolute;
   top: 50%;
@@ -651,7 +651,7 @@ header {
 
 }
 
-button {
+.button-close {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -669,15 +669,15 @@ button {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button:hover,
-.button::after {
+.button-close:hover,
+.button-close::after {
   background-color: #404bbf;
   border: none;
 }
 
 .form.svg {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: flex;
+  
   
 }
 
@@ -694,7 +694,7 @@ button {
 .form-label {
   font-size: 12px;
   line-height: 1.17;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   color: #8e8f99;
   display: block;
   margin-bottom: 4px;
@@ -716,7 +716,8 @@ button {
 }
 
 .user-name:focus {
-  color: #4D5AE5;
+  border-color: #4D5AE5;
+  fill: #4D5AE5;
 }
 
 .input-form-svg {
