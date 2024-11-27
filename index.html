@@ -461,8 +461,16 @@
                     </div>
                 <div class="form-about">    
                     <div class="send-box">
-                        <input class="visually-hidden" type="checkbox" value="true" name="user-privacy" id="user-privacy">
-                        <label class="checkbox-text" for="user-privacy">I accept the terms and conditions of the <span ><svg><use></use></svg></span> </label>
+                        <input class="form-input-checkbox visually-hidden" type="checkbox" value="true" name="user-privacy" id="user-privacy" required style="margin-bottom: 24px;">
+                        <label class="checkbox-text" for="user-privacy">
+                            <span class="checkbox-span">
+                                <svg class="chexkbox-svg" width="10" height="8">
+                                    <use href="./images/icons.svg#icon-send"></use>
+                                </svg>
+                            </span>
+                            I accept the terms and conditions of the
+                            <a class="policy-file" href="" target="_blank">Privacy Policy</a>
+                        </label>
                     </div>
                 </div>
             </form>

@@ -758,7 +758,7 @@ form {
 
 
 .area:focus {
-  color: #4D5AE5;
+  border-color: #4D5AE5;
 } 
 
 
@@ -787,4 +787,12 @@ form {
 }
 
 
-  
+.form-input-checkbox:checked + .checkbox-span {
+  background-color: #404bbf;
+  border: none;
+  fill: #F4F4FD;
+}
+
+.policy-file {
+  color: #4d5ae5;
+}
